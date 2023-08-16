@@ -1,0 +1,87 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: self-end;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 100%; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+/* Master Data */
+
+.master-data-container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ruas-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ruas-table th,
+.ruas-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.ruas-table th {
+  background-color: #f2f2f2;
+}
+
+.ruas-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* dashboard */
+
